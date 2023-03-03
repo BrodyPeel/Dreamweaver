@@ -60,7 +60,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #F5DEB3;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -4677,11 +4677,12 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #006400;
+  background-color: #006400;
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: #8FBC8F ;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -4700,7 +4701,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #006400;
 }
 
 .navbar-dark .navbar-toggler {
@@ -7976,15 +7977,6 @@ button.bg-dark:focus {
   bottom: 0;
   left: 0;
   z-index: 1030;
-}
-
-@supports ((position: -webkit-sticky) or (position: sticky)) {
-  .sticky-top {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1020;
-  }
 }
 
 .sr-only {
